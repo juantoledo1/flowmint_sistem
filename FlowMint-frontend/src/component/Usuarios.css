@@ -1,0 +1,111 @@
+/* Usuarios.css */
+
+.user-management-container {
+    padding: 2rem;
+    background-color: #0a0a0f;
+    min-height: 100vh;
+    color: #e0e0e0;
+}
+
+.text-neon-cyan {
+    color: #00f3ff;
+    text-shadow: 0 0 5px #00f3ff, 0 0 10px #00f3ff, 0 0 20px #00f3ff;
+}
+
+.neon-table {
+    background-color: #1a1a2e;
+    border: 1px solid #00f3ff;
+    box-shadow: 0 0 15px rgba(0, 243, 255, 0.3);
+}
+
+.neon-table thead th {
+    background-color: #1f283e;
+    color: #00f3ff;
+    border-bottom: 2px solid #00f3ff;
+}
+
+.neon-table tbody tr {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.neon-table tbody tr:hover {
+    background-color: #2a2a3e;
+    box-shadow: 0 0 10px rgba(255, 0, 110, 0.5);
+}
+
+.neon-table td, .neon-table th {
+    vertical-align: middle;
+}
+
+.btn-outline-primary {
+    border-color: #8b5cf6;
+    color: #8b5cf6;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    background-color: #8b5cf6;
+    color: #fff;
+    box-shadow: 0 0 10px #8b5cf6;
+}
+
+.btn-outline-danger {
+    border-color: #ff006e;
+    color: #ff006e;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-danger:hover {
+    background-color: #ff006e;
+    color: #fff;
+    box-shadow: 0 0 10px #ff006e;
+}
+
+.btn-outline-success {
+    border-color: #16f2b3;
+    color: #16f2b3;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-success:hover {
+    background-color: #16f2b3;
+    color: #0a0a0f;
+    box-shadow: 0 0 10px #16f2b3;
+}
+
+
+/* Modal Styles */
+.neon-modal-header, .neon-modal-body, .neon-modal-footer {
+    background-color: #1a1a2e;
+    border-color: #00f3ff;
+}
+
+.neon-modal-header {
+    border-bottom-width: 2px;
+}
+
+.neon-modal-footer {
+    border-top: 1px solid #333;
+}
+
+.modal-header .btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+/* Form Styles */
+.form-control, .form-select {
+    background-color: #0a0a0f;
+    color: #e0e0e0;
+    border: 1px solid #8b5cf6;
+}
+
+.form-control:focus, .form-select:focus {
+    background-color: #0a0a0f;
+    color: #e0e0e0;
+    border-color: #00f3ff;
+    box-shadow: 0 0 10px rgba(0, 243, 255, 0.5);
+}
+
+.form-label {
+    color: #00f3ff;
+}
